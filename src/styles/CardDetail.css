@@ -1,0 +1,49 @@
+.card-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card-detail-container img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card-detail-container h3 {
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+  text-align: left;
+  color: #333;
+}
+
+.card-detail-container p,
+.card-detail-container .MuiTypography-root {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #555;
+}
+.delete-btn {
+  background-color: #e53935;
+}
+.iconBtn {
+  display: flex;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
